@@ -27,7 +27,7 @@ body {
 }
 
 section {
-  height: 1200px;
+  height: 1500px;
 }
 
 .grid {
@@ -101,7 +101,7 @@ nav .menu-text a:hover:after {
 }
 .home-pic > img {
   width: 100%;
-  height: 600px;
+  height: 700px;
   box-shadow: 0 8px 16px rgba(82, 82, 82, 0.3);
 }
 
@@ -124,25 +124,21 @@ nav .menu-text a:hover:after {
   background-color: #ebf6ff;
   color: black;
   margin-top: 30px;
-  margin-left: 150px;
-  margin-right: 150px;
+  margin-bottom: 30px;
+  margin-left: 200px;
+  margin-right: 200px;
   padding: 30px;
   padding-left: 60px;
   padding-right: 60px;
   border-radius: 4px;
   box-shadow: 0 8px 16px rgba(82, 82, 82, 0.3);
 }
-.introduction > h3 {
+.introduction > h2 {
   text-align: center;
   margin-bottom: 20px;
 }
-.introduction > h3 p {
+.introduction > h2 > h3 {
   text-align: justify;
-}
-
-.carousel {
-  grid-column: 1/3;
-  grid-row: 4/5;
 }
 
 footer {
