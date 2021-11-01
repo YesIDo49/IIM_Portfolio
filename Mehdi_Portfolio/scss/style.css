@@ -46,6 +46,22 @@ nav {
   margin: auto;
   top: 2em;
 }
+nav > .logo {
+  border: 2px solid #ebf6ff;
+  border-radius: 25px;
+  padding: 10px;
+  margin-left: 10px;
+}
+nav > .logo > a {
+  color: white;
+  text-decoration: none;
+}
+nav > .logo:hover {
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+  transition: 0.5s;
+}
 nav > .menu-item {
   color: white;
   font-weight: 600;
@@ -53,9 +69,6 @@ nav > .menu-item {
   padding: 1em 1.5em;
   justify-content: center;
   min-height: 50px;
-}
-nav > .menu-item > h3 {
-  font-size: 1.5em;
 }
 nav > .menu-item > .menu-text, nav > .menu-item .menu-text a {
   font-size: 1.1em;
@@ -146,14 +159,14 @@ footer {
 }
 footer > .name {
   grid-column: 1/2;
-  margin: 10px;
-  padding-right: 50px;
+  margin-top: 10px;
+  padding-right: 40px;
   border-right: 2px solid #ebf6ff;
 }
 footer > .contact {
   grid-column: 2/2;
-  margin: 10px;
-  padding-right: 50px;
+  margin-top: 10px;
+  padding-right: 80px;
   border-right: 2px solid #ebf6ff;
 }
 footer > .contact > a {

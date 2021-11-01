@@ -52,6 +52,26 @@ nav {
   margin: auto;
   top: 2em;
 
+  > .logo {
+
+    border: 2px solid #ebf6ff;
+    border-radius: 25px;
+    padding: 10px;
+    margin-left: 10px;
+
+    > a {
+      color: white;
+      text-decoration: none;
+    }
+  }
+
+  > .logo:hover{
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+    transition: 0.5s;
+  }
+
   > .menu-item{
     color: white;
     font-weight: 600;
@@ -60,9 +80,7 @@ nav {
     justify-content: center;
     min-height: 50px;
 
-    > h3{
-      font-size: 1.5em;
-    }
+
 
     > .menu-text, .menu-text a{
       font-size: 1.1em;
@@ -162,15 +180,15 @@ footer{
   padding: 10px;
   > .name{
     grid-column: 1/2;
-    margin: 10px;
-    padding-right: 50px;
+    margin-top: 10px;
+    padding-right: 40px;
     border-right: 2px solid #ebf6ff;
   }
 
   > .contact{
     grid-column: 2/2;
-    margin: 10px;
-    padding-right: 50px;
+    margin-top: 10px;
+    padding-right: 80px;
     border-right: 2px solid #ebf6ff;
 
     > a{
