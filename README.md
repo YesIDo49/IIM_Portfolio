@@ -18,6 +18,6 @@ En cliquant sur le lien suivant vous pourez accéder à mon Portfolio depuis vot
 <br/><br/>
 
 <div align="center">
-<img src=https://github.com/YesIDo49/YesIDo49/blob/c660300df079b39aa56e6b6094a9d5d94d495e8a/working.gif" alt="working" width="400" height="250" />
+<img src="https://github.com/YesIDo49/YesIDo49/blob/c660300df079b39aa56e6b6094a9d5d94d495e8a/working.gif" alt="working" width="400" height="250" />
 </div>
 <br/>
