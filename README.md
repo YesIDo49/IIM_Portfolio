@@ -2,7 +2,7 @@
 
 <br/>
 <div align="center">
-<img src="https://github.com/YesIDo49/YesIDo49/blob/c660300df079b39aa56e6b6094a9d5d94d495e8a/kirby.gif" alt="Kirby says hi" />
+<img src="https://github.com/YesIDo49/YesIDo49/blob/c660300df079b39aa56e6b6094a9d5d94d495e8a/kirby.gif" alt="Kirby says hi" width="400" height="250" />
 </div>
 <br/>
 
