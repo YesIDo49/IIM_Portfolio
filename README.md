@@ -8,7 +8,7 @@
 
 
 
-Diplômé d’un Bac STI2D et d'un DUT Informatique, je suis en cours de deuxième année à l'IIM pour mon Bachelor de Développement web et souhaite préparer mon Mastère afin de devenir développeur Front-End. Si vous souhaitez en savoir plus sur mon profil je vous invite à donner un petit coup d'oeil à mon Portfolio;
+Diplômé d’un Bac STI2D et d'un DUT Informatique, je suis en cours de deuxième année à l'IIM pour mon Bachelor de Développement web et souhaite préparer mon Mastère afin de devenir développeur Front-End. Si vous souhaitez en savoir plus sur mon profil je vous invite à donner un petit coup d'oeil à mon Portfolio.
 
 
 <br/>
