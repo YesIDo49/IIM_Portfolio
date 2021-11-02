@@ -1,3 +1,12 @@
+//Variables
+$blueShade : #102eff;
+$pinkShade : #d2379b;
+$blackShade : #191E23;
+$whiteShade : #ebf6ff;
+$shadow: 0 8px 16px rgba(82, 82, 82, 0.3);
+$gradient: linear-gradient(45deg, #102eff, #d2379b);
+
+//CSS
 *{
   padding: 0;
   margin: 0;
@@ -31,8 +40,8 @@ p{
 
 
 body {
-  background: linear-gradient(45deg, #102eff, #d2379b);
-  color: white;
+  background: $gradient;
+  color: $whiteShade;
 
 }
 
@@ -47,8 +56,6 @@ section{
   display: grid;
   grid-template-columns: 3fr 7fr;
   grid-template-rows: 50px 0.5fr 1fr 1fr 1fr;
-  //column-gap: 40px;
-  //row-gap: 20px
 }
 
 nav {
@@ -60,13 +67,13 @@ nav {
 
   > .logo {
 
-    border: 2px solid #ebf6ff;
+    border: 2px solid $whiteShade;
     border-radius: 25px;
     padding: 10px;
     margin-left: 10px;
 
     > a {
-      color: white;
+      color: $whiteShade;
       text-decoration: none;
     }
   }
@@ -79,7 +86,7 @@ nav {
   }
 
   > .menu-item{
-    color: white;
+    color: $whiteShade;
     font-weight: 600;
     display: flex;
     padding: 1em 1.5em;
@@ -90,7 +97,7 @@ nav {
 
     > .menu-text, .menu-text a{
       font-size: 1.1em;
-      color: white;
+      color: $whiteShade;
       text-decoration: none;
       text-shadow: 0 1px 5px rgba(0,0,0,0.1);
       transition: color 0.1s ease-out;
@@ -123,7 +130,7 @@ nav .menu-text a:hover:after {
   > img{
     width: 100%;
     height: 700px;
-    box-shadow: 0 8px 16px rgba(82, 82, 82, 0.3);
+    box-shadow: $shadow;
 
   }
 }
@@ -137,7 +144,7 @@ nav .menu-text a:hover:after {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color:#102eff;
+  color:$blueShade;
   padding: 40px;
 
 }
@@ -145,17 +152,12 @@ nav .menu-text a:hover:after {
 .introduction{
   grid-column: 1/3;
   grid-row: 3/4;
-  background-color: #ebf6ff;
+  background-color: $whiteShade;
   color:black;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  margin-left: 200px;
-  margin-right: 200px;
-  padding: 30px;
-  padding-left: 60px;
-  padding-right: 60px;
+  margin : 30px 200px;
+  padding: 30px 60px;
   border-radius: 4px;
-  box-shadow: 0 8px 16px rgba(82, 82, 82, 0.3);
+  box-shadow: $shadow;
 
   > h2 {
     text-align: center;
@@ -180,25 +182,25 @@ footer{
   display: flex;
   justify-content: space-evenly;
   position: relative;
-  background-color: #d2379b;
-  border-top: 2px solid #ebf6ff;
-  color: white;
+  background-color: $pinkShade;
+  border-top: 2px solid $whiteShade;
+  color: $whiteShade;
   padding: 10px;
   > .name{
     grid-column: 1/2;
     margin-top: 10px;
     padding-right: 40px;
-    border-right: 2px solid #ebf6ff;
+    border-right: 2px solid $whiteShade;
   }
 
   > .contact{
     grid-column: 2/2;
     margin-top: 10px;
     padding-right: 80px;
-    border-right: 2px solid #ebf6ff;
+    border-right: 2px solid $whiteShade;
 
     > a{
-      color: #ebf6ff;
+      color: $whiteShade;
       text-decoration:none;
 
     }
@@ -228,7 +230,6 @@ footer{
     margin: 10px;
     padding-right: 50px;
 
-
   }
 
   .icons {
@@ -250,18 +251,18 @@ footer{
   .facebook:hover
   {
     color:#fff;
-    background-color:#29aafe
+    background-color:#29aafe;
   }
 
   .linkedin:hover
   {
     color:#fff;
-    background-color:#007bb6
+    background-color:#007bb6;
   }
   .github:hover
   {
     color:#fff;
-    background-color: #191E23;
+    background-color: $blackShade;
   }
 
 }
@@ -282,8 +283,8 @@ footer{
 
   >.web-skill{
     display: flex;
-    background-color: #ebf6ff;
-    color: #191E23;
+    background-color: $whiteShade;
+    color: $blackShade;
     justify-content: space-evenly;
     padding: 20px;
 
@@ -301,7 +302,7 @@ footer{
 
       > h2{
         text-align: center;
-        color: #d2379b;
+        color: $pinkShade;
       }
 
       > h3{
@@ -320,14 +321,14 @@ footer{
   grid-row: 2/3;
   justify-content: center;
   padding: 150px;
-  color: #d2379b;
+  color: $pinkShade;
   background-image: url("https://static.wixstatic.com/media/11062b_3bc0a742dcc54a698a440056823c715f~mv2.jpg/v1/fill/w_1899,h_600,al_t,q_85,usm_0.66_1.00_0.01/11062b_3bc0a742dcc54a698a440056823c715f~mv2.webp");
 
   > .title-div{
     background-color: rgba(219, 219, 219, 0.7);
     text-align: center;
     padding: 20px;
-    box-shadow: 0 8px 16px rgba(82, 82, 82, 0.3);
+    box-shadow: $shadow;
   }
 }
 
@@ -337,14 +338,13 @@ footer{
 
   >.project-div{
     display: block;
-    background-color: #ebf6ff;
-    color: #191E23;
+    background-color: $whiteShade;
+    color: $blackShade;
     justify-content: space-evenly;
     padding: 20px;
 
     > .project-vid{
       width: 60%;
-      padding: 0px;
       margin: auto;
     }
 
@@ -354,7 +354,7 @@ footer{
 
       > h2{
         text-align: center;
-        color: #d2379b;
+        color: $pinkShade;
       }
 
       > h3{
@@ -371,20 +371,20 @@ footer{
 }
 
 iframe{
-  box-shadow: 0 8px 16px rgba(82, 82, 82, 0.2);
+  box-shadow: $shadow;
 }
 
 .git-btn{
   display: flex;
-  background-color: #d2379b;
+  background-color: $pinkShade;
   border: none;
-  color: #ebf6ff;
+  color: $whiteShade;
   padding: 15px 32px;
   text-decoration: none;
   text-align: center;
   font-size: 16px;
   margin: auto;
-  box-shadow: 0 8px 16px rgba(82, 82, 82, 0.2);
+  box-shadow: $shadow;
   cursor: pointer;
 }
 
@@ -401,11 +401,10 @@ iframe{
 
   >.lang-title{
     text-align: center;
-    color: #d2379b;
+    color: $pinkShade;
     background-color: rgba(255,255,255,0.5);
     margin: auto;
     width: 25%;
-    text-align: center;
     padding: 15px;
   }
 }
@@ -425,13 +424,11 @@ iframe{
   display: flex;
   height: 300px;
   width: 200px;
-  background-color: #ebf6ff;
+  background-color: $whiteShade;
   border-radius: 10px;
   box-shadow: -1rem 0 3rem #000;
-  /*   margin-left: -50px; */
   transition: 0.4s ease-out;
   position: relative;
-  left: 0px;
 }
 
 .card:not(:first-child) {
@@ -450,7 +447,7 @@ iframe{
 }
 
 .title-card {
-  color: #d2379b;
+  color: $pinkShade;
   font-weight: 500;
   position: absolute;
   left: 20px;
@@ -459,7 +456,7 @@ iframe{
 }
 
 .sub-title{
-  color: #d2379b;
+  color: $pinkShade;
   font-weight: 500;
   position: absolute;
   left: 20px;
@@ -487,7 +484,7 @@ iframe{
   width: 0px;
   height: 100%;
   background: rgb(0,154,217);
-  background: linear-gradient(45deg, #102eff, #d2379b);
+  background: $gradient;
   transition: 0.6s ease-out;
 }
 
@@ -512,7 +509,7 @@ iframe{
   margin: 10px;
   > img{
     width: 100%;
-    box-shadow: 0 8px 16px rgba(82, 82, 82, 0.2);
+    box-shadow: $shadow;
   }
 }
 

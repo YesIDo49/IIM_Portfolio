@@ -29,7 +29,7 @@ p {
 
 body {
   background: linear-gradient(45deg, #102eff, #d2379b);
-  color: white;
+  color: #ebf6ff;
 }
 
 section {
@@ -59,7 +59,7 @@ nav > .logo {
   margin-left: 10px;
 }
 nav > .logo > a {
-  color: white;
+  color: #ebf6ff;
   text-decoration: none;
 }
 nav > .logo:hover {
@@ -69,7 +69,7 @@ nav > .logo:hover {
   transition: 0.5s;
 }
 nav > .menu-item {
-  color: white;
+  color: #ebf6ff;
   font-weight: 600;
   display: flex;
   padding: 1em 1.5em;
@@ -78,7 +78,7 @@ nav > .menu-item {
 }
 nav > .menu-item > .menu-text, nav > .menu-item .menu-text a {
   font-size: 1.1em;
-  color: white;
+  color: #ebf6ff;
   text-decoration: none;
   text-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
   transition: color 0.1s ease-out;
@@ -129,13 +129,8 @@ nav .menu-text a:hover:after {
   grid-row: 3/4;
   background-color: #ebf6ff;
   color: black;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  margin-left: 200px;
-  margin-right: 200px;
-  padding: 30px;
-  padding-left: 60px;
-  padding-right: 60px;
+  margin: 30px 200px;
+  padding: 30px 60px;
   border-radius: 4px;
   box-shadow: 0 8px 16px rgba(82, 82, 82, 0.3);
 }
@@ -156,7 +151,7 @@ footer {
   position: relative;
   background-color: #d2379b;
   border-top: 2px solid #ebf6ff;
-  color: white;
+  color: #ebf6ff;
   padding: 10px;
 }
 footer > .name {
@@ -291,7 +286,6 @@ footer .github:hover {
 }
 .project-list > .project-div > .project-vid {
   width: 60%;
-  padding: 0px;
   margin: auto;
 }
 .project-list > .project-div .project-desc {
@@ -311,7 +305,7 @@ footer .github:hover {
 }
 
 iframe {
-  box-shadow: 0 8px 16px rgba(82, 82, 82, 0.2);
+  box-shadow: 0 8px 16px rgba(82, 82, 82, 0.3);
 }
 
 .git-btn {
@@ -324,7 +318,7 @@ iframe {
   text-align: center;
   font-size: 16px;
   margin: auto;
-  box-shadow: 0 8px 16px rgba(82, 82, 82, 0.2);
+  box-shadow: 0 8px 16px rgba(82, 82, 82, 0.3);
   cursor: pointer;
 }
 
@@ -345,7 +339,6 @@ iframe {
   background-color: rgba(255, 255, 255, 0.5);
   margin: auto;
   width: 25%;
-  text-align: center;
   padding: 15px;
 }
 
@@ -366,10 +359,8 @@ iframe {
   background-color: #ebf6ff;
   border-radius: 10px;
   box-shadow: -1rem 0 3rem #000;
-  /*   margin-left: -50px; */
   transition: 0.4s ease-out;
   position: relative;
-  left: 0px;
 }
 
 .card:not(:first-child) {
@@ -450,7 +441,7 @@ iframe {
 }
 .pic > img {
   width: 100%;
-  box-shadow: 0 8px 16px rgba(82, 82, 82, 0.2);
+  box-shadow: 0 8px 16px rgba(82, 82, 82, 0.3);
 }
 
 .card:hover .stroke {
